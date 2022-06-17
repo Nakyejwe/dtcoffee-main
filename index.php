@@ -1,6 +1,6 @@
 <?php
 $con = mysqli_connect("localhost", "dizcoffe_root", "Zziwa-2580", "dizcoffe_dizcoffee") or die("DB CONNECTION FAILED");
-
+//
 if(isset($_POST["submit"]) && $con){
 $name = htmlentities($_POST["name"], ENT_QUOTES, "UTF-8");
 $email = htmlentities($_POST["email"], ENT_QUOTES, "UTF-8");
